@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>SelectTimeZone</description>
+   <name>TimeZone</name>
+   <tag></tag>
+   <elementGuidId>2972efd3-6b21-4124-a169-137e6c0b350a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='select2-timezoneQB-container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='select2-timezoneQB-container']</value>
+   </webElementProperties>
+</WebElementEntity>

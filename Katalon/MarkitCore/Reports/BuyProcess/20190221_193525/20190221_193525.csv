@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.109,,2019-02-21 19:35:29,2019-02-21 19:36:14,44.602s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.109,MarkitCoreLogin,2019-02-21 19:35:29,2019-02-21 19:35:55,25.436s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.109,,2019-02-21 19:35:30,2019-02-21 19:35:41,11.314s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-21 19:35:41,2019-02-21 19:35:41,0.208s,PASSED
+delay(4),Chrome 72.0.3626.109,,2019-02-21 19:35:41,2019-02-21 19:35:45,4.021s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.109,,2019-02-21 19:35:45,2019-02-21 19:35:45,0.319s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.109,,2019-02-21 19:35:45,2019-02-21 19:35:46,0.123s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.109,,2019-02-21 19:35:46,2019-02-21 19:35:52,6.116s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 19:35:52,2019-02-21 19:35:55,3.002s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.109,,2019-02-21 19:35:55,2019-02-21 19:36:07,12.548s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.109,,2019-02-21 19:35:55,2019-02-21 19:35:57,2.360s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-21 19:35:57,2019-02-21 19:35:59,2.002s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.109,,2019-02-21 19:35:59,2019-02-21 19:35:59,0.202s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.109,,2019-02-21 19:35:59,2019-02-21 19:35:59,0.043s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-21 19:35:59,2019-02-21 19:36:01,2.002s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.109,,2019-02-21 19:36:01,2019-02-21 19:36:02,0.720s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-02-21 19:36:02,2019-02-21 19:36:07,5.000s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.109,,2019-02-21 19:36:07,2019-02-21 19:36:13,5.593s,FAILED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.109,,2019-02-21 19:36:07,2019-02-21 19:36:09,1.722s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 19:36:09,2019-02-21 19:36:12,3.003s,PASSED
+"selectOptionByValue(findTestObject(""GeneralInformation/currency""), ""USD"", false)",Chrome 72.0.3626.109,,2019-02-21 19:36:12,2019-02-21 19:36:13,0.667s,FAILED

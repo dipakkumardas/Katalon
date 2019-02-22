@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.109,,2019-02-21 15:10:24,2019-02-21 15:10:50,26.700s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.109,MarkitCoreLogin,2019-02-21 15:10:24,2019-02-21 15:10:46,22.170s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.109,,2019-02-21 15:10:24,2019-02-21 15:10:33,8.965s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-21 15:10:33,2019-02-21 15:10:33,0.160s,PASSED
+delay(4),Chrome 72.0.3626.109,,2019-02-21 15:10:33,2019-02-21 15:10:37,4.021s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.109,,2019-02-21 15:10:37,2019-02-21 15:10:37,0.155s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.109,,2019-02-21 15:10:37,2019-02-21 15:10:37,0.098s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.109,,2019-02-21 15:10:37,2019-02-21 15:10:43,5.436s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 15:10:43,2019-02-21 15:10:46,3.002s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.109,,2019-02-21 15:10:46,2019-02-21 15:10:49,3.603s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.109,,2019-02-21 15:10:46,2019-02-21 15:10:47,1.415s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-21 15:10:47,2019-02-21 15:10:49,2.000s,PASSED

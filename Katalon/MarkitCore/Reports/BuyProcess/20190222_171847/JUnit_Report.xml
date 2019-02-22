@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuyProcess" time="148" tests="2" failures="1" errors="0">
+   <testsuite name="BuyProcess" tests="2" failures="1" errors="0" time="148" timestamp="2019-02-22 17:18:48" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BuyProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_171847"/>
+         <property name="logFiles" value="C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_171847\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_171847\\1550836276010.png"/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="9b13a0e8ef30425ba201e7cc9bfa3819"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-02-22 17:18:48 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-02-22 17:18:49 - [TEST_STEP][PASSED] - openBrowser("https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"): Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-02-22 17:18:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-22 17:18:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-22 17:19:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-02-22 17:19:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-22 17:19:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-22 17:19:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-02-22 17:19:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-22 17:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-02-22 17:19:17 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-02-22 17:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-02-22 17:19:17 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-02-22 17:19:17 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-02-22 17:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-02-22 17:19:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:19:37 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClientSearch" classname="Test Cases/ClientSearch" status="PASSED">
+         <system-out><![CDATA[2019-02-22 17:19:37 - [TEST_CASE][PASSED] - Test Cases/ClientSearch: Test Cases/ClientSearch
+
+2019-02-22 17:19:37 - [TEST_STEP][PASSED] - click(findTestObject("ClientSearch")): Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-02-22 17:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-02-22 17:19:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-22 17:19:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-22 17:19:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), "Dipak"): Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 17:19:43 - [MESSAGE][PASSED] - Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 17:19:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 17:19:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 17:19:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-22 17:19:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-22 17:19:45 - [TEST_STEP][PASSED] - click(findTestObject("ClientListingAction")): Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-02-22 17:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-02-22 17:19:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-22 17:19:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StartQuote" classname="Test Cases/StartQuote" status="FAILED">
+         <failure type="FAILED" message="Test Cases/StartQuote FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-22 17:19:51 - [TEST_CASE][FAILED] - Test Cases/StartQuote: Test Cases/StartQuote FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)
+
+
+2019-02-22 17:19:51 - [TEST_STEP][PASSED] - click(findTestObject("StartQuote")): Object: 'Object Repository/StartQuote' is clicked on
+
+2019-02-22 17:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/StartQuote' is clicked on
+
+2019-02-22 17:19:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:19:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/currency"), "ZAR", false): All options with label 'ZAR' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-02-22 17:19:56 - [MESSAGE][PASSED] - All options with label 'ZAR' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-02-22 17:19:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:19:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:19:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectBroker"), "New Broker", false): All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-02-22 17:19:59 - [MESSAGE][PASSED] - All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-02-22 17:19:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectProduct"), "BasicDemoProduct", false): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-02-22 17:20:02 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-02-22 17:20:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/PolicyTerm"), "Monthly", false): All options with label 'Monthly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-02-22 17:20:05 - [MESSAGE][PASSED] - All options with label 'Monthly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-02-22 17:20:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:08 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/PolicyStartDate")): Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-02-22 17:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-02-22 17:20:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Year"), "2019", false): All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 17:20:11 - [MESSAGE][PASSED] - All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 17:20:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Month"), "Feb", false): All options with label 'Feb' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 17:20:14 - [MESSAGE][PASSED] - All options with label 'Feb' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 17:20:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:17 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Day")): Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 17:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 17:20:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:21 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/PolicyEndDate")): Object: 'Object Repository/GeneralInformation/PolicyEndDate' is clicked on
+
+2019-02-22 17:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/PolicyEndDate' is clicked on
+
+2019-02-22 17:20:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Year"), "2019", false): All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 17:20:24 - [MESSAGE][PASSED] - All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 17:20:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Month"), "Mar", false): All options with label 'Mar' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 17:20:27 - [MESSAGE][PASSED] - All options with label 'Mar' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 17:20:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:30 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Day")): Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 17:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 17:20:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 17:20:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 17:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeneralInformation/NextButton")): Object: 'Object Repository/GeneralInformation/NextButton' is clicked on
+
+2019-02-22 17:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/NextButton' is clicked on
+
+2019-02-22 17:20:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-22 17:20:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-22 17:20:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("RiskDetails/Page_Markit core new  Risk details/select_Select"), "StandAlone", false): All options with label 'StandAlone' are selected in object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/select_Select' 
+
+2019-02-22 17:20:42 - [MESSAGE][PASSED] - All options with label 'StandAlone' are selected in object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/select_Select' 
+
+2019-02-22 17:20:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-22 17:20:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-22 17:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("RiskDetails/Page_Markit core new  Risk details/SumInsure"), "1000"): Text '1000' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/SumInsure'
+
+2019-02-22 17:20:44 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/SumInsure'
+
+2019-02-22 17:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("RiskDetails/Page_Markit core new  Risk details/RoomNo"), "10"): Text '10' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/RoomNo'
+
+2019-02-22 17:20:44 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/RoomNo'
+
+2019-02-22 17:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("RiskDetails/Page_Markit core new  Risk details/ContentSumInsure"), "1000"): Text '1000' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ContentSumInsure'
+
+2019-02-22 17:20:44 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ContentSumInsure'
+
+2019-02-22 17:20:44 - [TEST_STEP][FAILED] - click(findTestObject("RiskDetails/Page_Markit core new  Risk details/ButtonSubmit")): click(findTestObject("RiskDetails/Page_Markit core new  Risk details/ButtonSubmit")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)
+
+
+2019-02-22 17:21:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-22 17:21:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_171847\\1550836276010.png]]
+
+2019-02-22 17:21:16 - [MESSAGE][FAILED] - click(findTestObject("RiskDetails/Page_Markit core new  Risk details/ButtonSubmit")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-22 17:19:51 - [TEST_CASE][FAILED] - Test Cases/StartQuote: Test Cases/StartQuote FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-22 17:18:48 - [TEST_SUITE][FAILED] - BuyProcess: Test Cases/StartQuote FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-22 17:18:48 - [TEST_SUITE][FAILED] - BuyProcess: Test Cases/StartQuote FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RiskDetails/Page_Markit core new  Risk details/ButtonSubmit' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StartQuote.run(StartQuote:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550836127074.run(TempTestSuite1550836127074.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

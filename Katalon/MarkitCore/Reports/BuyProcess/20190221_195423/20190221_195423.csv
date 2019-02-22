@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.109,,2019-02-21 19:54:28,2019-02-21 19:55:26,57.640s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.109,MarkitCoreLogin,2019-02-21 19:54:28,2019-02-21 19:54:53,24.190s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.109,,2019-02-21 19:54:29,2019-02-21 19:54:39,10.710s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-21 19:54:39,2019-02-21 19:54:40,0.162s,PASSED
+delay(4),Chrome 72.0.3626.109,,2019-02-21 19:54:40,2019-02-21 19:54:44,4.021s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.109,,2019-02-21 19:54:44,2019-02-21 19:54:44,0.251s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.109,,2019-02-21 19:54:44,2019-02-21 19:54:44,0.118s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.109,,2019-02-21 19:54:44,2019-02-21 19:54:50,5.585s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 19:54:50,2019-02-21 19:54:53,3.002s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.109,,2019-02-21 19:54:53,2019-02-21 19:55:05,12.495s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.109,,2019-02-21 19:54:53,2019-02-21 19:54:55,1.789s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-21 19:54:55,2019-02-21 19:54:57,2.002s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.109,,2019-02-21 19:54:57,2019-02-21 19:54:57,0.174s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.109,,2019-02-21 19:54:57,2019-02-21 19:54:57,0.043s,PASSED
+delay(2),Chrome 72.0.3626.109,,2019-02-21 19:54:57,2019-02-21 19:54:59,2.002s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.109,,2019-02-21 19:54:59,2019-02-21 19:55:00,1.272s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-02-21 19:55:00,2019-02-21 19:55:05,5.000s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.109,,2019-02-21 19:55:05,2019-02-21 19:55:24,19.253s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.109,,2019-02-21 19:55:05,2019-02-21 19:55:09,3.278s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 19:55:09,2019-02-21 19:55:12,3.002s,PASSED
+"click(findTestObject(""GeneralInformation/currency""))",Chrome 72.0.3626.109,,2019-02-21 19:55:12,2019-02-21 19:55:21,9.365s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), ""ZAR"", false)",Chrome 72.0.3626.109,,2019-02-21 19:55:21,2019-02-21 19:55:21,0.365s,PASSED
+delay(3),Chrome 72.0.3626.109,,2019-02-21 19:55:21,2019-02-21 19:55:24,3.001s,PASSED

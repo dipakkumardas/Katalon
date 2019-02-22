@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuyProcess" time="87" tests="3" failures="0" errors="0">
+   <testsuite name="BuyProcess" tests="3" failures="0" errors="0" time="87" timestamp="2019-02-22 16:18:03" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BuyProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_161743"/>
+         <property name="logFiles" value="C:\\Users\\dipak\\Katalon Studio\\MarkitCore\\Reports\\BuyProcess\\20190222_161743\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="f526ace99818db1b91177a15e2fc5f3a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-02-22 16:18:03 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-02-22 16:18:03 - [TEST_STEP][PASSED] - openBrowser("https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"): Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-02-22 16:18:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-22 16:18:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-22 16:18:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-02-22 16:18:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-22 16:18:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-22 16:18:23 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-02-22 16:18:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-02-22 16:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("Username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-02-22 16:18:28 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-02-22 16:18:28 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-02-22 16:18:28 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-02-22 16:18:28 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-02-22 16:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-02-22 16:18:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:18:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClientSearch" classname="Test Cases/ClientSearch" status="PASSED">
+         <system-out><![CDATA[2019-02-22 16:18:40 - [TEST_CASE][PASSED] - Test Cases/ClientSearch: Test Cases/ClientSearch
+
+2019-02-22 16:18:40 - [TEST_STEP][PASSED] - click(findTestObject("ClientSearch")): Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-02-22 16:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-02-22 16:18:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-22 16:18:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-22 16:18:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), "Dipak"): Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 16:18:44 - [MESSAGE][PASSED] - Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 16:18:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 16:18:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-02-22 16:18:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-22 16:18:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-22 16:18:46 - [TEST_STEP][PASSED] - click(findTestObject("ClientListingAction")): Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-02-22 16:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-02-22 16:18:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-22 16:18:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StartQuote" classname="Test Cases/StartQuote" status="PASSED">
+         <system-out><![CDATA[2019-02-22 16:18:51 - [TEST_CASE][PASSED] - Test Cases/StartQuote: Test Cases/StartQuote
+
+2019-02-22 16:18:52 - [TEST_STEP][PASSED] - click(findTestObject("StartQuote")): Object: 'Object Repository/StartQuote' is clicked on
+
+2019-02-22 16:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/StartQuote' is clicked on
+
+2019-02-22 16:18:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/currency"), "ZAR", false): All options with label 'ZAR' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-02-22 16:19:02 - [MESSAGE][PASSED] - All options with label 'ZAR' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-02-22 16:19:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectBroker"), "New Broker", false): All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-02-22 16:19:05 - [MESSAGE][PASSED] - All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-02-22 16:19:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectProduct"), "BasicDemoProduct", false): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-02-22 16:19:08 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-02-22 16:19:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/PolicyTerm"), "Monthly", false): All options with label 'Monthly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-02-22 16:19:11 - [MESSAGE][PASSED] - All options with label 'Monthly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-02-22 16:19:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:14 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/PolicyStartDate")): Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-02-22 16:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-02-22 16:19:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Year"), "2019", false): All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 16:19:17 - [MESSAGE][PASSED] - All options with label '2019' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Year' 
+
+2019-02-22 16:19:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/Policy_Start_Month"), "Mar", false): All options with label 'Mar' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 16:19:21 - [MESSAGE][PASSED] - All options with label 'Mar' are selected in object 'Object Repository/GeneralInformation/Policy_Start_Month' 
+
+2019-02-22 16:19:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-22 16:19:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-22 16:19:24 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Day")): Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 16:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Day' is clicked on
+
+2019-02-22 16:19:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-22 16:19:30 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-22 16:18:03 - [TEST_SUITE][PASSED] - BuyProcess: Test Cases/StartQuote]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

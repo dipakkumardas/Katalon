@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InsurerName</name>
+   <tag></tag>
+   <elementGuidId>8b975183-a3fb-4338-b8e1-d4221c650a49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='commissionBreakupTable_0']/tbody/tr[2]/td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='commissionBreakupTable_0']/tbody/tr[2]/td[1]</value>
+   </webElementProperties>
+</WebElementEntity>
