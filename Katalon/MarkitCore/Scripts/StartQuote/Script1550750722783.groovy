@@ -12,88 +12,124 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+
+not_run: KeywordLogger log = new KeywordLogger()
+
+WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('StartQuote'))
 
-WebUI.delay(3)
+WebUI.waitForJQueryLoad(5)
 
-// Quote Journey General Details 
-//WebUI.selectOptionByValue(findTestObject('GeneralInformation/currency'), 'ZAR', false)
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/currency'), 'ZAR', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/SelectBroker'), 'New Broker', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/SelectProduct'), 'BasicDemoProduct', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/PolicyTerm'), 'Monthly', false)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('GeneralInformation/PolicyStartDate'))
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/Policy_Start_Year'), '2019', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/Policy_Start_Month'), 'Feb', false)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('GeneralInformation/Policy_Start_Day'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('GeneralInformation/PolicyEndDate'))
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/Policy_Start_Year'), '2019', false)
-
-WebUI.delay(3)
-
-WebUI.selectOptionByLabel(findTestObject('GeneralInformation/Policy_Start_Month'), 'Mar', false)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('GeneralInformation/Policy_Start_Day'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/GeneralInformation/NextButton'))
+WebUI.selectOptionByLabel(findTestObject('GeneralInformation/currency'), var_currency, false)
 
 WebUI.delay(5)
 
-//Risk Details 
-WebUI.selectOptionByLabel(findTestObject('RiskDetails/Page_Markit core new  Risk details/select_Select'), 'StandAlone', 
-    false)
+WebUI.click(findTestObject('GeneralInformation/SelectBroker'))
 
-WebUI.delay(2)
+WebUI.selectOptionByLabel(findTestObject('GeneralInformation/SelectBroker'), BrokerName, false)
 
-WebUI.setText(findTestObject('RiskDetails/Page_Markit core new  Risk details/SumInsure'), '1000')
+WebUI.delay(5)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('GeneralInformation/SelectProduct'))
 
-WebUI.setText(findTestObject('RiskDetails/Page_Markit core new  Risk details/RoomNo'), '10')
+WebUI.waitForJQueryLoad(5)
 
-WebUI.setText(findTestObject('RiskDetails/Page_Markit core new  Risk details/ContentSumInsure'), '1000')
+WebUI.selectOptionByLabel(findTestObject('GeneralInformation/SelectProduct'), ProductName, false)
 
-WebUI.click(findTestObject('RiskDetails/Page_Markit core new  Risk details/ButtonSubmit'))
+WebUI.waitForJQueryLoad(5)
+
+not_run: WebUI.delay(3)
+
+WebUI.click(findTestObject('GeneralInformation/PolicyTerm'))
+
+WebUI.delay(5)
+
+WebUI.selectOptionByLabel(findTestObject('GeneralInformation/PolicyTerm'), Term, false)
+
+WebUI.waitForJQueryLoad(10)
+
+WebUI.click(findTestObject('GeneralInformation/PolicyStartDate'))
+
+WebUI.click(findTestObject('GeneralInformation/Policy_Start_Year'))
+
+WebUI.click(findTestObject('GeneralInformation/Policy_Start_Month'))
+
+WebUI.click(findTestObject('GeneralInformation/Policy_Start_Month'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('GeneralInformation/NextButton'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PremiumPage/PremiumBreakUpButton'))
+if (var_cancelAlertCondition.equals('cancel')) {
+    WebUI.click(findTestObject('GeneralInformation/CancelAlert'))
 
-WebUI.delay(3)
+    WebUI.delay(4)
 
-WebUI.getText(findTestObject('PremiumPage/InsurerName'))
+    WebUI.waitForElementVisible(findTestObject('RiskDetails/Page_Markit core new  Risk details/General_Info_Risk_Details'), 
+        5)
+
+    WebUI.delay(2)
+
+    WebUI.selectOptionByLabel(findTestObject('RiskDetails/Page_Markit core new  Risk details/SelectType'), var_buildingtype, 
+        false)
+
+    WebUI.delay(1)
+
+    WebUI.sendKeys(findTestObject('RiskDetails/Page_Markit core new  Risk details/SumInsure'), BuildingSumInsure, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.sendKeys(findTestObject('RiskDetails/Page_Markit core new  Risk details/RoomNo'), NoofRoom)
+
+    WebUI.sendKeys(findTestObject('RiskDetails/Page_Markit core new  Risk details/ContentSumInsure'), ContentSumInsure)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('RiskDetails/Page_Markit core new  Risk details/ButtonSubmit'))
+} else {
+    WebUI.click(findTestObject('GeneralInformation/AcceptAlert'))
+
+    WebUI.getText(findTestObject('PremiumPage/Total'))
+
+    WebUI.delay(4)
+}
+
+WebUI.waitForJQueryLoad(10)
+
+WebUI.click(findTestObject('PremiumPage/Bind'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('PaymentDetails/PaymentMethods'))
+
+WebUI.waitForJQueryLoad(5)
+
+WebUI.selectOptionByLabel(findTestObject('PaymentDetails/SelectInstallment'), '1', false)
+
+WebUI.scrollToElement(findTestObject('PaymentDetails/ConfirmPaymentType'), 5)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('PaymentDetails/ConfirmPaymentType'))
+
+WebUI.scrollToElement(findTestObject('PaymentDetails/BindAndSendPolicySchedule'), 5)
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('PaymentDetails/BindAndSendPolicySchedule'))
+
+var_policyno = WebUI.getText(findTestObject('PremiumPage/PolicyNo'))
+
+System.out.println(var_policyno)
+
+WebUI.delay(2)
+
+not_run: CustomKeywords.'com.helper.excel.ExcelHelper.writeTOExcelFile'('E:\\MarkitCore\\ExcelWriter\\test.xlsx', 'TestData', 
+    var_policyNo, 1, 1)
+
+not_run: CustomKeywords.'com.helper.excel2.excelwrite.WriteExcel'()
 
 WebUI.delay(5)
 

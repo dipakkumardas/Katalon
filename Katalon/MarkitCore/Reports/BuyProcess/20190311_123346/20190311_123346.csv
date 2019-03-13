@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-11 12:33:48,2019-03-11 12:34:41,53.031s,FAILED
+,,,,,,
+Test Cases/TC-RegressionDataDrivenScriptMode,Chrome 72.0.3626.121,,2019-03-11 12:33:48,2019-03-11 12:34:40,52.217s,FAILED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.121,,2019-03-11 12:33:48,2019-03-11 12:33:58,10.252s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-11 12:33:58,2019-03-11 12:33:59,0.166s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.121,,2019-03-11 12:33:59,2019-03-11 12:33:59,0.052s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.121,,2019-03-11 12:33:59,2019-03-11 12:33:59,0.131s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 12:33:59,2019-03-11 12:34:01,2.017s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.121,,2019-03-11 12:34:01,2019-03-11 12:34:01,0.107s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-11 12:34:01,2019-03-11 12:34:04,3.005s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.121,,2019-03-11 12:34:04,2019-03-11 12:34:10,6.407s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 12:34:10,2019-03-11 12:34:13,3.002s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.121,,2019-03-11 12:34:13,2019-03-11 12:34:13,0.059s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.121,,2019-03-11 12:34:13,2019-03-11 12:34:15,1.243s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 12:34:15,2019-03-11 12:34:20,5.004s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.121,,2019-03-11 12:34:20,2019-03-11 12:34:20,0.107s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 12:34:20,2019-03-11 12:34:22,2.002s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.121,,2019-03-11 12:34:22,2019-03-11 12:34:22,0.061s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-11 12:34:22,2019-03-11 12:34:26,4.004s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Chrome 72.0.3626.121,,2019-03-11 12:34:26,2019-03-11 12:34:26,0.045s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.121,,2019-03-11 12:34:26,2019-03-11 12:34:30,4.042s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 12:34:30,2019-03-11 12:34:35,5.001s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-11 12:34:35,2019-03-11 12:34:37,1.936s,PASSED
+"excelData = findTestData(""Data Files/Quote"")",Chrome 72.0.3626.121,,2019-03-11 12:34:37,2019-03-11 12:34:37,0.002s,NOT_RUN
+waitForPageLoad(5),Chrome 72.0.3626.121,,2019-03-11 12:34:37,2019-03-11 12:34:37,0.095s,PASSED
+"waitForElementClickable(findTestObject(""GeneralInformation/currency""), 3)",Chrome 72.0.3626.121,,2019-03-11 12:34:37,2019-03-11 12:34:37,0.079s,PASSED
+"click(findTestObject(""GeneralInformation/currency""))",Chrome 72.0.3626.121,,2019-03-11 12:34:37,2019-03-11 12:34:37,0.189s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 12:34:37,2019-03-11 12:34:39,2.003s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), var_currency, false)",Chrome 72.0.3626.121,,2019-03-11 12:34:39,2019-03-11 12:34:39,0.109s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/GeneralInformation/SelectBroker""), var_brokername, false)",Chrome 72.0.3626.121,,2019-03-11 12:34:39,2019-03-11 12:34:39,0.094s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 12:34:39,2019-03-11 12:34:39,0.017s,PASSED
+"scrollToElement(findTestObject(""GeneralInformation/SelectProduct""), 3)",Chrome 72.0.3626.121,,2019-03-11 12:34:39,2019-03-11 12:34:40,0.036s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/SelectProduct""), var_productname, false)",Chrome 72.0.3626.121,,2019-03-11 12:34:40,2019-03-11 12:34:40,0.110s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 12:34:40,2019-03-11 12:34:40,0.025s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/GeneralInformation/PolicyTerm""), var_policyterm, false)",Chrome 72.0.3626.121,,2019-03-11 12:34:40,2019-03-11 12:34:40,0.421s,FAILED

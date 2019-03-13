@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuyProcess" time="58" tests="2" failures="0" errors="0">
+   <testsuite name="BuyProcess" tests="2" failures="0" errors="0" time="58" timestamp="2019-03-04 19:31:12" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BuyProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190304_193036"/>
+         <property name="logFiles" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190304_193036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="90cb96a1e90061c9f0f9d6f2a0b012ad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-04 19:31:12 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-03-04 19:31:13 - [TEST_STEP][PASSED] - openBrowser("https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"): Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-04 19:31:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 19:31:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-04 19:31:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-04 19:31:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-04 19:31:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-04 19:31:31 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+2019-03-04 19:31:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-04 19:31:31 - [TEST_STEP][PASSED] - setText(findTestObject("Username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-04 19:31:31 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-04 19:31:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-04 19:31:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-04 19:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-04 19:31:34 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-04 19:31:34 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-04 19:31:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 19:31:37 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-04 19:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-04 19:31:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 19:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Renewal" classname="Test Cases/Renewal" status="PASSED">
+         <system-out><![CDATA[2019-03-04 19:31:48 - [TEST_CASE][PASSED] - Test Cases/Renewal: Test Cases/Renewal
+
+2019-03-04 19:31:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Configuration/Configuration"), 10): Object 'Object Repository/Configuration/Configuration' is clickable
+
+2019-03-04 19:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/Configuration/Configuration' is clickable
+
+2019-03-04 19:31:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Configuration/Configuration"), 10): Scroll to object 'Object Repository/Configuration/Configuration' successfully
+
+2019-03-04 19:31:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Configuration/Configuration' successfully
+
+2019-03-04 19:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Configuration/Configuration")): Object: 'Object Repository/Configuration/Configuration' is clicked on
+
+2019-03-04 19:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuration/Configuration' is clicked on
+
+2019-03-04 19:31:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-04 19:31:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-04 19:31:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Configuration/ProductManagement"), 5): Scroll to object 'Object Repository/Configuration/ProductManagement' successfully
+
+2019-03-04 19:31:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Configuration/ProductManagement' successfully
+
+2019-03-04 19:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Configuration/ProductManagement")): Object: 'Object Repository/Configuration/ProductManagement' is clicked on
+
+2019-03-04 19:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuration/ProductManagement' is clicked on
+
+2019-03-04 19:31:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-04 19:31:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-04 19:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Configuration/InsureProduct")): Object: 'Object Repository/Configuration/InsureProduct' is clicked on
+
+2019-03-04 19:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Configuration/InsureProduct' is clicked on
+
+2019-03-04 19:31:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-04 19:32:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-04 19:32:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Configuration/SearchProduct"), "BasicDemoProduct"): Keys 'BasicDemoProduct' sent to object: 'Object Repository/Configuration/SearchProduct'
+
+2019-03-04 19:32:04 - [MESSAGE][PASSED] - Keys 'BasicDemoProduct' sent to object: 'Object Repository/Configuration/SearchProduct'
+
+2019-03-04 19:32:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Configuration/SearchProduct"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Configuration/SearchProduct'
+
+2019-03-04 19:32:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Configuration/SearchProduct'
+
+2019-03-04 19:32:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-04 19:32:09 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-04 19:31:12 - [TEST_SUITE][PASSED] - BuyProcess: Test Cases/Renewal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

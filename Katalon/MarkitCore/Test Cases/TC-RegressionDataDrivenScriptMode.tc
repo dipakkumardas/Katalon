@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-RegressionDataDrivenScriptMode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e3a7e49-7f3a-4723-bb73-b7add0d96cbc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e273be08-1534-4481-b603-9ca9be23752a</id>
+      <masked>false</masked>
+      <name>var_currency</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76273866-d3cc-4ae2-96cf-ca72c9cf7066</id>
+      <masked>false</masked>
+      <name>var_brokername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff0edeb8-dc47-420a-9504-e22fd4ef00d4</id>
+      <masked>false</masked>
+      <name>var_productname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db40a2aa-f48a-4a26-98e8-b7c4d8dd1763</id>
+      <masked>false</masked>
+      <name>var_policyterm</name>
+   </variable>
+</TestCaseEntity>

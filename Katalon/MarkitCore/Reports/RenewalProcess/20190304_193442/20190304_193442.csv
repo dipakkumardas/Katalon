@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RenewalProcess,Chrome 72.0.3626.119,,2019-03-04 19:34:46,2019-03-04 19:35:33,46.248s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.119,MarkitCoreLogin,2019-03-04 19:34:47,2019-03-04 19:35:12,25.102s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-03-04 19:34:47,2019-03-04 19:34:58,10.852s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-03-04 19:34:58,2019-03-04 19:34:58,0.166s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-03-04 19:34:58,2019-03-04 19:34:58,0.094s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.119,,2019-03-04 19:34:58,2019-03-04 19:34:58,0.236s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-04 19:34:58,2019-03-04 19:35:00,2.036s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.119,,2019-03-04 19:35:00,2019-03-04 19:35:01,0.111s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-04 19:35:01,2019-03-04 19:35:04,3.005s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-03-04 19:35:04,2019-03-04 19:35:09,5.250s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-04 19:35:09,2019-03-04 19:35:12,3.001s,PASSED
+,,,,,,
+Test Cases/Renewal,Chrome 72.0.3626.119,,2019-03-04 19:35:12,2019-03-04 19:35:32,20.136s,PASSED
+"waitForElementClickable(findTestObject(""Configuration/Configuration""), 10)",Chrome 72.0.3626.119,,2019-03-04 19:35:12,2019-03-04 19:35:12,0.129s,PASSED
+"scrollToElement(findTestObject(""Configuration/Configuration""), 10)",Chrome 72.0.3626.119,,2019-03-04 19:35:12,2019-03-04 19:35:12,0.086s,PASSED
+"click(findTestObject(""Configuration/Configuration""))",Chrome 72.0.3626.119,,2019-03-04 19:35:12,2019-03-04 19:35:12,0.076s,PASSED
+delay(5),Chrome 72.0.3626.119,,2019-03-04 19:35:12,2019-03-04 19:35:17,5.004s,PASSED
+"scrollToElement(findTestObject(""Configuration/ProductManagement""), 5)",Chrome 72.0.3626.119,,2019-03-04 19:35:17,2019-03-04 19:35:17,0.054s,PASSED
+"click(findTestObject(""Configuration/ProductManagement""))",Chrome 72.0.3626.119,,2019-03-04 19:35:17,2019-03-04 19:35:17,0.062s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-04 19:35:17,2019-03-04 19:35:19,2.003s,PASSED
+"click(findTestObject(""Configuration/InsureProduct""))",Chrome 72.0.3626.119,,2019-03-04 19:35:19,2019-03-04 19:35:22,2.193s,PASSED
+delay(5),Chrome 72.0.3626.119,,2019-03-04 19:35:22,2019-03-04 19:35:27,5.003s,PASSED
+"sendKeys(findTestObject(""Configuration/SearchProduct""), ""BasicDemoProduct"")",Chrome 72.0.3626.119,,2019-03-04 19:35:27,2019-03-04 19:35:27,0.278s,PASSED
+"sendKeys(findTestObject(""Configuration/SearchProduct""), Keys.chord(ENTER))",Chrome 72.0.3626.119,,2019-03-04 19:35:27,2019-03-04 19:35:27,0.048s,PASSED
+delay(5),Chrome 72.0.3626.119,,2019-03-04 19:35:27,2019-03-04 19:35:32,5.002s,PASSED

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuyProcess" time="89" tests="3" failures="0" errors="0">
+   <testsuite name="BuyProcess" tests="3" failures="0" errors="0" time="89" timestamp="2019-03-11 17:39:19" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BuyProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190311_173917"/>
+         <property name="logFiles" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190311_173917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="fe744a7fed73421a07c9b52b695598c6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-11 17:39:19 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-03-11 17:39:19 - [TEST_STEP][PASSED] - openBrowser("https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"): Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-11 17:39:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-11 17:39:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-11 17:39:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-11 17:39:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-11 17:39:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-11 17:39:26 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+2019-03-11 17:39:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 17:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("Username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-11 17:39:26 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-11 17:39:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-11 17:39:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-11 17:39:28 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-11 17:39:28 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-11 17:39:28 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-11 17:39:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-11 17:39:31 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-11 17:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-11 17:39:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-11 17:39:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClientSearch" classname="Test Cases/ClientSearch" status="PASSED">
+         <system-out><![CDATA[2019-03-11 17:39:40 - [TEST_CASE][PASSED] - Test Cases/ClientSearch: Test Cases/ClientSearch
+
+2019-03-11 17:39:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ClientSearch"), 10): Object 'Object Repository/ClientSearch' is clickable
+
+2019-03-11 17:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/ClientSearch' is clickable
+
+2019-03-11 17:39:40 - [TEST_STEP][PASSED] - click(findTestObject("ClientSearch")): Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-03-11 17:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-03-11 17:39:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-11 17:39:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-11 17:39:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), "Dipak"): Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-03-11 17:39:47 - [MESSAGE][PASSED] - Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-03-11 17:39:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-11 17:39:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-11 17:39:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-03-11 17:39:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-03-11 17:39:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-11 17:39:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-11 17:39:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ClientListingAction"), 5): Object 'Object Repository/ClientListingAction' is clickable
+
+2019-03-11 17:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/ClientListingAction' is clickable
+
+2019-03-11 17:39:52 - [TEST_STEP][PASSED] - click(findTestObject("ClientListingAction")): Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-03-11 17:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-03-11 17:39:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-11 17:40:00 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StartQuote" classname="Test Cases/StartQuote" status="PASSED">
+         <system-out><![CDATA[2019-03-11 17:40:00 - [TEST_CASE][PASSED] - Test Cases/StartQuote: Test Cases/StartQuote
+
+2019-03-11 17:40:00 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-03-11 17:40:00 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-03-11 17:40:00 - [TEST_STEP][PASSED] - waitForPageLoad(10, STOP_ON_FAILURE): Wait for page load successfully
+
+2019-03-11 17:40:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 17:40:00 - [TEST_STEP][PASSED] - click(findTestObject("StartQuote")): Object: 'Object Repository/StartQuote' is clicked on
+
+2019-03-11 17:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/StartQuote' is clicked on
+
+2019-03-11 17:40:02 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-03-11 17:40:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-11 17:40:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/currency"), var_currency, false): All options with label 'USD' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-03-11 17:40:04 - [MESSAGE][PASSED] - All options with label 'USD' are selected in object 'Object Repository/GeneralInformation/currency' 
+
+2019-03-11 17:40:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-11 17:40:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-11 17:40:09 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/SelectBroker")): Object: 'Object Repository/GeneralInformation/SelectBroker' is clicked on
+
+2019-03-11 17:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/SelectBroker' is clicked on
+
+2019-03-11 17:40:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectBroker"), BrokerName, false): All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-03-11 17:40:09 - [MESSAGE][PASSED] - All options with label 'New Broker' are selected in object 'Object Repository/GeneralInformation/SelectBroker' 
+
+2019-03-11 17:40:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-11 17:40:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-11 17:40:14 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/SelectProduct")): Object: 'Object Repository/GeneralInformation/SelectProduct' is clicked on
+
+2019-03-11 17:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/SelectProduct' is clicked on
+
+2019-03-11 17:40:14 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-03-11 17:40:14 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-11 17:40:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/SelectProduct"), ProductName, false): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-03-11 17:40:14 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/GeneralInformation/SelectProduct' 
+
+2019-03-11 17:40:14 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-03-11 17:40:15 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-11 17:40:15 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2019-03-11 17:40:15 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2019-03-11 17:40:15 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/PolicyTerm")): Object: 'Object Repository/GeneralInformation/PolicyTerm' is clicked on
+
+2019-03-11 17:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/PolicyTerm' is clicked on
+
+2019-03-11 17:40:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-11 17:40:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-11 17:40:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("GeneralInformation/PolicyTerm"), Term, false): All options with label 'Yearly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-03-11 17:40:20 - [MESSAGE][PASSED] - All options with label 'Yearly' are selected in object 'Object Repository/GeneralInformation/PolicyTerm' 
+
+2019-03-11 17:40:20 - [TEST_STEP][PASSED] - waitForJQueryLoad(10): jQuery is ready.
+
+2019-03-11 17:40:21 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-11 17:40:21 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/PolicyStartDate")): Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-03-11 17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/PolicyStartDate' is clicked on
+
+2019-03-11 17:40:21 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Year")): Object: 'Object Repository/GeneralInformation/Policy_Start_Year' is clicked on
+
+2019-03-11 17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Year' is clicked on
+
+2019-03-11 17:40:21 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Month")): Object: 'Object Repository/GeneralInformation/Policy_Start_Month' is clicked on
+
+2019-03-11 17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Month' is clicked on
+
+2019-03-11 17:40:21 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/Policy_Start_Month")): Object: 'Object Repository/GeneralInformation/Policy_Start_Month' is clicked on
+
+2019-03-11 17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/Policy_Start_Month' is clicked on
+
+2019-03-11 17:40:21 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-03-11 17:40:25 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-11 17:40:25 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/NextButton")): Object: 'Object Repository/GeneralInformation/NextButton' is clicked on
+
+2019-03-11 17:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/NextButton' is clicked on
+
+2019-03-11 17:40:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-11 17:40:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-11 17:40:28 - [TEST_STEP][PASSED] - click(findTestObject("GeneralInformation/CancelAlert")): Object: 'Object Repository/GeneralInformation/CancelAlert' is clicked on
+
+2019-03-11 17:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GeneralInformation/CancelAlert' is clicked on
+
+2019-03-11 17:40:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-03-11 17:40:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-11 17:40:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("RiskDetails/Page_Markit core new  Risk details/General_Info_Risk_Details"), 5): Object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/General_Info_Risk_Details' is visible
+
+2019-03-11 17:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/General_Info_Risk_Details' is visible
+
+2019-03-11 17:40:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-11 17:40:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-11 17:40:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("RiskDetails/Page_Markit core new  Risk details/SelectType"), var_buildingtype, false): All options with label 'Flat' are selected in object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/SelectType' 
+
+2019-03-11 17:40:38 - [MESSAGE][PASSED] - All options with label 'Flat' are selected in object 'Object Repository/RiskDetails/Page_Markit core new  Risk details/SelectType' 
+
+2019-03-11 17:40:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-03-11 17:40:48 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-11 17:39:19 - [TEST_SUITE][PASSED] - BuyProcess: Test Cases/StartQuote]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

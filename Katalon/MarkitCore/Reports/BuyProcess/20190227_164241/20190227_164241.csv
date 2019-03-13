@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.119,,2019-02-27 16:42:42,2019-02-27 16:43:56,1m - 13.796s,FAILED
+,,,,,,
+Test Cases/DataDriven,Chrome 72.0.3626.119,,2019-02-27 16:42:43,2019-02-27 16:43:38,54.921s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-02-27 16:42:43,2019-02-27 16:42:54,10.856s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.164s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.048s,PASSED
+"setText(findTestObject(""Username""), UserName)",Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.131s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.011s,PASSED
+"setText(findTestObject(""Password""), Password)",Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.219s,PASSED
+"waitForElementClickable(findTestObject(""LoginButton""), 5)",Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:42:54,0.081s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-02-27 16:42:54,2019-02-27 16:43:11,16.525s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-02-27 16:43:11,2019-02-27 16:43:14,3.018s,PASSED
+"callTestCase(findTestCase(""ClientSearch""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-02-27 16:43:14,2019-02-27 16:43:29,14.785s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-02-27 16:43:29,2019-02-27 16:43:32,3.004s,PASSED
+"click(findTestObject(""Logout""))",Chrome 72.0.3626.119,,2019-02-27 16:43:32,2019-02-27 16:43:33,1.742s,PASSED
+delay(4),Chrome 72.0.3626.119,,2019-02-27 16:43:33,2019-02-27 16:43:38,4.008s,PASSED
+,,,,,,
+Test Cases/DataDriven,Chrome 72.0.3626.119,,2019-02-27 16:43:38,2019-02-27 16:43:56,18.049s,FAILED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-02-27 16:43:38,2019-02-27 16:43:55,17.162s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.130s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.008s,PASSED
+"setText(findTestObject(""Username""), UserName)",Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.104s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.012s,PASSED
+"setText(findTestObject(""Password""), Password)",Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.100s,PASSED
+"waitForElementClickable(findTestObject(""LoginButton""), 5)",Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:55,0.042s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-02-27 16:43:55,2019-02-27 16:43:56,0.473s,FAILED

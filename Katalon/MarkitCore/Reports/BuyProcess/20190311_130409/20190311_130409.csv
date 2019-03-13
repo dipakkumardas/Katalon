@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-11 13:04:11,2019-03-11 13:04:59,48.254s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.121,MarkitCoreLogin,2019-03-11 13:04:11,2019-03-11 13:04:33,22.312s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.121,,2019-03-11 13:04:11,2019-03-11 13:04:18,7.408s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-11 13:04:18,2019-03-11 13:04:19,0.166s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.121,,2019-03-11 13:04:19,2019-03-11 13:04:19,0.051s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.121,,2019-03-11 13:04:19,2019-03-11 13:04:19,0.161s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 13:04:19,2019-03-11 13:04:21,2.032s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.121,,2019-03-11 13:04:21,2019-03-11 13:04:21,0.119s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-11 13:04:21,2019-03-11 13:04:24,3.008s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.121,,2019-03-11 13:04:24,2019-03-11 13:04:30,6.059s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 13:04:30,2019-03-11 13:04:33,3.002s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.121,,2019-03-11 13:04:33,2019-03-11 13:04:51,18.002s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.121,,2019-03-11 13:04:33,2019-03-11 13:04:33,0.044s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.121,,2019-03-11 13:04:33,2019-03-11 13:04:35,1.518s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 13:04:35,2019-03-11 13:04:40,5.004s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.121,,2019-03-11 13:04:40,2019-03-11 13:04:40,0.102s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 13:04:40,2019-03-11 13:04:42,2.003s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.121,,2019-03-11 13:04:42,2019-03-11 13:04:42,0.054s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 13:04:42,2019-03-11 13:04:45,3.002s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Chrome 72.0.3626.121,,2019-03-11 13:04:45,2019-03-11 13:04:45,0.045s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.121,,2019-03-11 13:04:45,2019-03-11 13:04:46,1.067s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 13:04:46,2019-03-11 13:04:51,5.002s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-11 13:04:51,2019-03-11 13:04:58,7.074s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-11 13:04:51,2019-03-11 13:04:51,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-11 13:04:51,2019-03-11 13:04:51,0.010s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-11 13:04:51,2019-03-11 13:04:53,1.554s,PASSED
+waitForPageLoad(5),Chrome 72.0.3626.121,,2019-03-11 13:04:53,2019-03-11 13:04:53,0.109s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), ""USD"", false)",Chrome 72.0.3626.121,,2019-03-11 13:04:53,2019-03-11 13:04:53,0.198s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 13:04:53,2019-03-11 13:04:58,5.004s,PASSED

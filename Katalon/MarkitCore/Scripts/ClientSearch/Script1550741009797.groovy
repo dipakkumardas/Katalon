@@ -14,15 +14,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementClickable(findTestObject('ClientSearch'), 10)
+
 WebUI.click(findTestObject('ClientSearch'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('SearchText'), 'Dipak')
 
+WebUI.delay(2)
+
 WebUI.sendKeys(findTestObject('SearchText'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('ClientListingAction'), 5)
 
 WebUI.click(findTestObject('ClientListingAction'))
 

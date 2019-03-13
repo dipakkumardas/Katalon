@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuyProcess" time="55" tests="1" failures="0" errors="0">
+   <testsuite name="BuyProcess" tests="1" failures="0" errors="0" time="55" timestamp="2019-03-08 15:06:02" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BuyProcess">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190308_150554"/>
+         <property name="logFiles" value="E:\\MarkitCore\\Katalon\\Katalon\\MarkitCore\\Reports\\BuyProcess\\20190308_150554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="0e2f78f11f414345e5f635e320285318"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC-RegressionDataDrivenScriptMode" classname="Test Cases/TC-RegressionDataDrivenScriptMode" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:06:02 - [TEST_CASE][PASSED] - Test Cases/TC-RegressionDataDrivenScriptMode: Test Cases/TC-RegressionDataDrivenScriptMode
+
+2019-03-08 15:06:02 - [TEST_STEP][PASSED] - openBrowser("https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"): Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-08 15:06:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:06:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-08 15:06:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display'
+
+2019-03-08 15:06:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-08 15:06:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-08 15:06:19 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+2019-03-08 15:06:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-08 15:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-08 15:06:20 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/Username'
+
+2019-03-08 15:06:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:06:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-08 15:06:22 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/Password'
+
+2019-03-08 15:06:22 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-08 15:06:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 15:06:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-08 15:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-03-08 15:06:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-08 15:06:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 15:06:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ClientSearch"), 10): Object 'Object Repository/ClientSearch' is clickable
+
+2019-03-08 15:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/ClientSearch' is clickable
+
+2019-03-08 15:06:34 - [TEST_STEP][PASSED] - click(findTestObject("ClientSearch")): Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-03-08 15:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientSearch' is clicked on
+
+2019-03-08 15:06:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-08 15:06:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-08 15:06:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), "Dipak"): Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-03-08 15:06:40 - [MESSAGE][PASSED] - Keys 'Dipak' sent to object: 'Object Repository/SearchText'
+
+2019-03-08 15:06:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:06:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:06:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("SearchText"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-03-08 15:06:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SearchText'
+
+2019-03-08 15:06:42 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-03-08 15:06:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-08 15:06:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ClientListingAction"), 5): Object 'Object Repository/ClientListingAction' is clickable
+
+2019-03-08 15:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/ClientListingAction' is clickable
+
+2019-03-08 15:06:46 - [TEST_STEP][PASSED] - click(findTestObject("ClientListingAction")): Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-03-08 15:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ClientListingAction' is clicked on
+
+2019-03-08 15:06:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-08 15:06:56 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-08 15:06:02 - [TEST_SUITE][PASSED] - BuyProcess: Test Cases/TC-RegressionDataDrivenScriptMode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

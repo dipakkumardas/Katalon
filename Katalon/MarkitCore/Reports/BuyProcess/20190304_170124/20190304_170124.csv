@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.119,,2019-03-04 17:01:30,2019-03-04 17:01:57,27.091s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.119,MarkitCoreLogin,2019-03-04 17:01:30,2019-03-04 17:01:45,15.659s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-03-04 17:01:30,2019-03-04 17:01:40,10.073s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-03-04 17:01:40,2019-03-04 17:01:40,0.144s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-03-04 17:01:40,2019-03-04 17:01:40,0.057s,PASSED
+"setText(findTestObject(""Username""), findTestData(""Login (1)"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-03-04 17:01:40,2019-03-04 17:01:41,1.032s,PASSED
+waitForPageLoad(5),Chrome 72.0.3626.119,,2019-03-04 17:01:41,2019-03-04 17:01:41,0.018s,PASSED
+"setText(findTestObject(""Password""), findTestData(""Login (1)"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-03-04 17:01:41,2019-03-04 17:01:42,0.124s,PASSED
+"waitForElementPresent(findTestObject(""LoginButton""), 5)",Chrome 72.0.3626.119,,2019-03-04 17:01:42,2019-03-04 17:01:42,0.029s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-03-04 17:01:42,2019-03-04 17:01:42,0.807s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-04 17:01:42,2019-03-04 17:01:45,3.043s,PASSED
+,,,,,,
+Test Cases/Renewal,Chrome 72.0.3626.119,,2019-03-04 17:01:45,2019-03-04 17:01:56,10.495s,FAILED
+"click(findTestObject(""Configuration/Configuration""))",Chrome 72.0.3626.119,,2019-03-04 17:01:46,2019-03-04 17:01:56,10.232s,FAILED

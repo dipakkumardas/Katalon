@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.119,,2019-02-27 15:08:08,2019-02-27 15:09:04,56.017s,PASSED
+,,,,,,
+Test Cases/DataDriven,Chrome 72.0.3626.119,,2019-02-27 15:08:08,2019-02-27 15:08:38,29.630s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-02-27 15:08:08,2019-02-27 15:08:19,10.593s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-27 15:08:19,2019-02-27 15:08:19,0.157s,PASSED
+delay(4),Chrome 72.0.3626.119,,2019-02-27 15:08:19,2019-02-27 15:08:23,4.024s,PASSED
+"setText(findTestObject(""Username""), findTestData(""Login"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-02-27 15:08:23,2019-02-27 15:08:23,0.315s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-02-27 15:08:23,2019-02-27 15:08:25,2.004s,PASSED
+"setText(findTestObject(""Password""), findTestData(""Login"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-02-27 15:08:25,2019-02-27 15:08:25,0.128s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-02-27 15:08:25,2019-02-27 15:08:35,9.083s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-02-27 15:08:35,2019-02-27 15:08:38,3.003s,PASSED
+,,,,,,
+Test Cases/DataDriven,Chrome 72.0.3626.119,,2019-02-27 15:08:38,2019-02-27 15:09:03,25.326s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-02-27 15:08:38,2019-02-27 15:08:47,9.204s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-27 15:08:47,2019-02-27 15:08:47,0.136s,PASSED
+delay(4),Chrome 72.0.3626.119,,2019-02-27 15:08:47,2019-02-27 15:08:51,4.003s,PASSED
+"setText(findTestObject(""Username""), findTestData(""Login"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-02-27 15:08:51,2019-02-27 15:08:51,0.181s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-02-27 15:08:51,2019-02-27 15:08:53,2.003s,PASSED
+"setText(findTestObject(""Password""), findTestData(""Login"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-02-27 15:08:53,2019-02-27 15:08:53,0.115s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-02-27 15:08:53,2019-02-27 15:09:00,6.664s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-02-27 15:09:00,2019-02-27 15:09:03,3.002s,PASSED

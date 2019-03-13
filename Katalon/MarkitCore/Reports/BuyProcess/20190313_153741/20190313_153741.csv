@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-13 15:37:43,2019-03-13 15:40:12,2m - 29.357s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.121,MarkitCoreLogin,2019-03-13 15:37:43,2019-03-13 15:38:53,1m - 10.026s,FAILED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.121,,2019-03-13 15:37:43,2019-03-13 15:38:21,37.861s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-13 15:38:21,2019-03-13 15:38:21,0.242s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.121,,2019-03-13 15:38:21,2019-03-13 15:38:22,0.097s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.121,,2019-03-13 15:38:22,2019-03-13 15:38:53,31.515s,FAILED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.121,,2019-03-13 15:38:53,2019-03-13 15:39:40,46.693s,FAILED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.121,,2019-03-13 15:38:53,2019-03-13 15:39:04,10.338s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.121,,2019-03-13 15:39:04,2019-03-13 15:39:40,36.134s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-13 15:39:40,2019-03-13 15:40:11,31.671s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-13 15:39:40,2019-03-13 15:39:40,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-13 15:39:40,2019-03-13 15:39:40,0.010s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-13 15:39:40,2019-03-13 15:40:11,31.252s,FAILED

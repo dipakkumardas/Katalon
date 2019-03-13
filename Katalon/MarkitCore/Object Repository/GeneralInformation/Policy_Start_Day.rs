@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all']//a[contains(text(),'x')]</value>
+         <value>//div[@class='ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all']//a[contains(text(),'28')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all']//a[contains(text(),'23')]</value>
+      <value>//div[@class='ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all']//a[contains(text(),'28')]</value>
    </webElementProperties>
 </WebElementEntity>

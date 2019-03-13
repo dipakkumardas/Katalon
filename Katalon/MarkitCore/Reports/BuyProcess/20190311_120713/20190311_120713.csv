@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-11 12:07:14,2019-03-11 12:08:02,47.447s,PASSED
+,,,,,,
+Test Cases/TC-RegressionDataDrivenScriptMode,Chrome 72.0.3626.121,,2019-03-11 12:07:15,2019-03-11 12:08:01,46.609s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.121,,2019-03-11 12:07:15,2019-03-11 12:07:23,8.083s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-11 12:07:23,2019-03-11 12:07:23,0.147s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.121,,2019-03-11 12:07:23,2019-03-11 12:07:23,0.056s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.121,,2019-03-11 12:07:23,2019-03-11 12:07:23,0.131s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 12:07:23,2019-03-11 12:07:25,2.022s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.121,,2019-03-11 12:07:25,2019-03-11 12:07:25,0.106s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-11 12:07:25,2019-03-11 12:07:28,3.005s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.121,,2019-03-11 12:07:28,2019-03-11 12:07:35,6.337s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 12:07:35,2019-03-11 12:07:38,3.005s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.121,,2019-03-11 12:07:38,2019-03-11 12:07:38,0.052s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.121,,2019-03-11 12:07:38,2019-03-11 12:07:40,2.180s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 12:07:40,2019-03-11 12:07:45,5.003s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.121,,2019-03-11 12:07:45,2019-03-11 12:07:45,0.089s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-11 12:07:45,2019-03-11 12:07:47,2.002s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.121,,2019-03-11 12:07:47,2019-03-11 12:07:47,0.048s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-11 12:07:47,2019-03-11 12:07:51,4.002s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Chrome 72.0.3626.121,,2019-03-11 12:07:51,2019-03-11 12:07:51,0.034s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.121,,2019-03-11 12:07:51,2019-03-11 12:07:52,1.196s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 12:07:52,2019-03-11 12:07:57,5.002s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-11 12:07:57,2019-03-11 12:08:00,2.452s,PASSED
+"excelData = findTestData(""Data Files/Quote"")",Chrome 72.0.3626.121,,2019-03-11 12:08:00,2019-03-11 12:08:00,0.415s,PASSED
+waitForPageLoad(5),Chrome 72.0.3626.121,,2019-03-11 12:08:00,2019-03-11 12:08:00,0.030s,PASSED
+"waitForElementClickable(findTestObject(""GeneralInformation/currency""), 3)",Chrome 72.0.3626.121,,2019-03-11 12:08:00,2019-03-11 12:08:00,0.097s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), excelData.getValue(""Currency"", 1), false)",Chrome 72.0.3626.121,,2019-03-11 12:08:00,2019-03-11 12:08:01,0.485s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/GeneralInformation/SelectBroker""), excelData.getValue(""BrokerName"", 1), false)",Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.091s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.016s,PASSED
+"scrollToElement(findTestObject(""GeneralInformation/SelectProduct""), 3)",Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.038s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/SelectProduct""), excelData.getValue(""ProductName"", 1), false)",Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.099s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/GeneralInformation/SelectProduct""), excelData.getValue(""ProductName"", 1), false)",Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.002s,NOT_RUN
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.014s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/GeneralInformation/PolicyTerm""), excelData.getValue(""Term"", 1), false)",Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.001s,NOT_RUN
+delay(5),Chrome 72.0.3626.121,,2019-03-11 12:08:01,2019-03-11 12:08:01,0.000s,NOT_RUN

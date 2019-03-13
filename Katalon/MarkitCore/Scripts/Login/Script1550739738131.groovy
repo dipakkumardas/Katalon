@@ -17,11 +17,15 @@ WebUI.openBrowser('https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/l
 
 WebUI.maximizeWindow()
 
-WebUI.delay(4)
+WebUI.waitForPageLoad(4)
 
 WebUI.setText(findTestObject('Username'), 'dDasTester')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Password'), 'Czybm6R*')
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LoginButton'))
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Total</name>
+   <tag></tag>
+   <elementGuidId>59ff1c5a-4923-4c4d-873d-307b44e704f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main&quot;]/div[3]/div[1]/div[3]/div[14]/table/tbody/tr/td[2]/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main&quot;]/div[3]/div[1]/div[3]/div[14]/table/tbody/tr/td[2]/strong</value>
+   </webElementProperties>
+</WebElementEntity>

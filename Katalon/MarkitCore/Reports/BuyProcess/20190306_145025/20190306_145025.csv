@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.119,,2019-03-06 14:50:31,2019-03-06 14:51:57,1m - 25.409s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.119,MarkitCoreLogin,2019-03-06 14:50:32,2019-03-06 14:51:16,44.441s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.119,,2019-03-06 14:50:32,2019-03-06 14:50:58,25.838s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-03-06 14:50:58,2019-03-06 14:50:58,0.186s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.119,,2019-03-06 14:50:58,2019-03-06 14:50:58,0.106s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.119,,2019-03-06 14:50:58,2019-03-06 14:50:59,0.401s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-06 14:50:59,2019-03-06 14:51:01,2.034s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.119,,2019-03-06 14:51:01,2019-03-06 14:51:01,0.122s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-06 14:51:01,2019-03-06 14:51:04,3.005s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.119,,2019-03-06 14:51:04,2019-03-06 14:51:13,9.390s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-06 14:51:13,2019-03-06 14:51:16,3.002s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.119,,2019-03-06 14:51:16,2019-03-06 14:51:33,16.938s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.119,,2019-03-06 14:51:16,2019-03-06 14:51:16,0.130s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.119,,2019-03-06 14:51:16,2019-03-06 14:51:18,1.527s,PASSED
+delay(5),Chrome 72.0.3626.119,,2019-03-06 14:51:18,2019-03-06 14:51:23,5.003s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.119,,2019-03-06 14:51:23,2019-03-06 14:51:23,0.303s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.119,,2019-03-06 14:51:23,2019-03-06 14:51:23,0.063s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-06 14:51:23,2019-03-06 14:51:26,3.004s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Chrome 72.0.3626.119,,2019-03-06 14:51:26,2019-03-06 14:51:26,0.058s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.119,,2019-03-06 14:51:26,2019-03-06 14:51:28,1.663s,PASSED
+delay(5),Chrome 72.0.3626.119,,2019-03-06 14:51:28,2019-03-06 14:51:33,5.001s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.119,,2019-03-06 14:51:33,2019-03-06 14:51:56,23.016s,FAILED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.119,,2019-03-06 14:51:33,2019-03-06 14:51:56,22.817s,FAILED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,,,2019-03-06 19:21:16,2019-03-06 19:21:20,3.569s,FAILED
+,,,,,,
+Test Cases/Login,,MarkitCoreLogin,2019-03-06 19:21:16,2019-03-06 19:21:19,2.270s,FAILED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",,,2019-03-06 19:21:17,2019-03-06 19:21:19,1.970s,FAILED
+,,,,,,
+Test Cases/ClientSearch,,,2019-03-06 19:21:19,2019-03-06 19:21:19,0.172s,FAILED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",,,2019-03-06 19:21:19,2019-03-06 19:21:19,0.033s,FAILED
+,,,,,,
+Test Cases/StartQuote,,,2019-03-06 19:21:19,2019-03-06 19:21:19,0.206s,FAILED
+"waitForElementClickable(findTestObject(""StartQuote""), 10)",,,2019-03-06 19:21:19,2019-03-06 19:21:19,0.011s,FAILED

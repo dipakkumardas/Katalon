@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-07 17:36:31,2019-03-07 17:37:28,56.478s,ERROR
+,,,,,,
+Test Cases/RegressionTestCase,Chrome 72.0.3626.121,,2019-03-07 17:36:32,2019-03-07 17:37:27,55.649s,ERROR
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 17:36:32,2019-03-07 17:36:57,24.598s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-07 17:36:57,2019-03-07 17:37:01,4.004s,PASSED
+"callTestCase(findTestCase(""ClientSearch""), [""ClientName"":""""], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 17:37:01,2019-03-07 17:37:18,17.582s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-07 17:37:18,2019-03-07 17:37:22,4.004s,PASSED
+"callTestCase(findTestCase(""StartQuote""), [""Currency"":"""", ""BrokerName"":"""", ""IntroducerName"":"""", ""ProductName"":"""", ""Term"":"""", ""BuildingSumInsure"":"""", ""NoofRoom"":"""", ""ContentSumInsure"":""""], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 17:37:22,2019-03-07 17:37:27,5.148s,ERROR

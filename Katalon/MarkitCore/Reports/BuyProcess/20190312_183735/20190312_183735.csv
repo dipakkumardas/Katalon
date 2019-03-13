@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Firefox 56.0,,2019-03-12 18:37:40,2019-03-12 18:39:23,1m - 43.020s,FAILED
+,,,,,,
+Test Cases/Login,Firefox 56.0,MarkitCoreLogin,2019-03-12 18:37:40,2019-03-12 18:38:29,48.702s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Firefox 56.0,,2019-03-12 18:37:41,2019-03-12 18:38:12,31.833s,PASSED
+maximizeWindow(),Firefox 56.0,,2019-03-12 18:38:12,2019-03-12 18:38:13,0.148s,PASSED
+waitForPageLoad(4),Firefox 56.0,,2019-03-12 18:38:13,2019-03-12 18:38:13,0.572s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Firefox 56.0,,2019-03-12 18:38:13,2019-03-12 18:38:15,1.484s,PASSED
+delay(2),Firefox 56.0,,2019-03-12 18:38:15,2019-03-12 18:38:17,2.044s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Firefox 56.0,,2019-03-12 18:38:17,2019-03-12 18:38:17,0.148s,PASSED
+"delay(3, STOP_ON_FAILURE)",Firefox 56.0,,2019-03-12 18:38:17,2019-03-12 18:38:20,3.005s,PASSED
+"click(findTestObject(""LoginButton""))",Firefox 56.0,,2019-03-12 18:38:20,2019-03-12 18:38:26,6.178s,PASSED
+delay(3),Firefox 56.0,,2019-03-12 18:38:26,2019-03-12 18:38:29,3.003s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Firefox 56.0,,2019-03-12 18:38:29,2019-03-12 18:38:45,16.289s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Firefox 56.0,,2019-03-12 18:38:29,2019-03-12 18:38:29,0.204s,PASSED
+"click(findTestObject(""ClientSearch""))",Firefox 56.0,,2019-03-12 18:38:29,2019-03-12 18:38:30,0.187s,PASSED
+delay(5),Firefox 56.0,,2019-03-12 18:38:30,2019-03-12 18:38:35,5.003s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Firefox 56.0,,2019-03-12 18:38:35,2019-03-12 18:38:35,0.142s,PASSED
+delay(2),Firefox 56.0,,2019-03-12 18:38:35,2019-03-12 18:38:37,2.002s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Firefox 56.0,,2019-03-12 18:38:37,2019-03-12 18:38:37,0.104s,PASSED
+delay(3),Firefox 56.0,,2019-03-12 18:38:37,2019-03-12 18:38:40,3.002s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Firefox 56.0,,2019-03-12 18:38:40,2019-03-12 18:38:40,0.089s,PASSED
+"click(findTestObject(""ClientListingAction""))",Firefox 56.0,,2019-03-12 18:38:40,2019-03-12 18:38:40,0.268s,PASSED
+delay(5),Firefox 56.0,,2019-03-12 18:38:40,2019-03-12 18:38:45,5.003s,PASSED
+,,,,,,
+Test Cases/StartQuote,Firefox 56.0,,2019-03-12 18:38:45,2019-03-12 18:39:23,37.206s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Firefox 56.0,,2019-03-12 18:38:46,2019-03-12 18:38:46,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Firefox 56.0,,2019-03-12 18:38:46,2019-03-12 18:38:46,0.035s,PASSED
+"click(findTestObject(""StartQuote""))",Firefox 56.0,,2019-03-12 18:38:46,2019-03-12 18:38:47,1.524s,PASSED
+waitForJQueryLoad(5),Firefox 56.0,,2019-03-12 18:38:47,2019-03-12 18:38:47,0.195s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), var_currency, false)",Firefox 56.0,,2019-03-12 18:38:47,2019-03-12 18:39:23,35.070s,FAILED
