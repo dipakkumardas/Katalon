@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BasicDemoProductData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfc428e7-64fd-42ee-9f58-79815a0156f3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40fd3b56-7cd3-4e75-bf4f-afd8e5833402</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb86af37-5c94-4d09-bd98-8cbdc6ae275a</id>
+      <masked>false</masked>
+      <name>BuildingSumInsure</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e0ad11a-80f7-4256-916b-034fb781ddc8</id>
+      <masked>false</masked>
+      <name>NoOfRoom</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00fc40eb-c42a-4f46-b584-a7965838faa2</id>
+      <masked>false</masked>
+      <name>ContentSumInsure</name>
+   </variable>
+</TestCaseEntity>

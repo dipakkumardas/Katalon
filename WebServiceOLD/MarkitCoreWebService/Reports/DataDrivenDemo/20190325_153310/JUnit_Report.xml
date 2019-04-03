@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenDemo" time="9" tests="2" failures="0" errors="0">
+   <testsuite name="DataDrivenDemo" tests="2" failures="0" errors="0" time="9" timestamp="2019-03-25 15:33:13" hostname="Pravakar - Pravakar-VAIO" id="Test Suites/DataDrivenDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\katalonwork\\Katalon\\MarkitCoreWebService\\Reports\\DataDrivenDemo\\20190325_153310"/>
+         <property name="logFiles" value="C:\\katalonwork\\Katalon\\MarkitCoreWebService\\Reports\\DataDrivenDemo\\20190325_153310\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pravakar - Pravakar-VAIO"/>
+         <property name="hostAddress" value="10.0.12.9"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-25 15:33:14 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-25 15:33:15 - [TEST_STEP][PASSED] - println("..Using Product Code :" + ProductCode): null
+
+2019-03-25 15:33:15 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Prod_Name":ProductCode])): Send request successfully
+
+2019-03-25 15:33:18 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\0.har
+
+2019-03-25 15:33:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:18 - [TEST_STEP][PASSED] - println("..Using Sum1 :" + Sum_1): null
+
+2019-03-25 15:33:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum1":Sum_1])): Send request successfully
+
+2019-03-25 15:33:19 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\1.har
+
+2019-03-25 15:33:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - println("..Using Sum2 :" + Sum_2): null
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum2":Sum_2])): Send request successfully
+
+2019-03-25 15:33:19 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\2.har
+
+2019-03-25 15:33:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - println("..Using Sum3 :" + Sum_3): null
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum3":Sum_3])): Send request successfully
+
+2019-03-25 15:33:19 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\3.har
+
+2019-03-25 15:33:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - println("..Using Sum4 :" + Sum_4): null
+
+2019-03-25 15:33:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum4":Sum_4])): Send request successfully
+
+2019-03-25 15:33:20 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\4.har
+
+2019-03-25 15:33:20 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-03-25 15:33:20 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-03-25 15:33:20 - [TEST_STEP][PASSED] - println("..Using Product Code :" + ProductCode): null
+
+2019-03-25 15:33:20 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Prod_Name":ProductCode])): Send request successfully
+
+2019-03-25 15:33:20 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\5.har
+
+2019-03-25 15:33:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:20 - [TEST_STEP][PASSED] - println("..Using Sum1 :" + Sum_1): null
+
+2019-03-25 15:33:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum1":Sum_1])): Send request successfully
+
+2019-03-25 15:33:21 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\6.har
+
+2019-03-25 15:33:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:21 - [TEST_STEP][PASSED] - println("..Using Sum2 :" + Sum_2): null
+
+2019-03-25 15:33:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum2":Sum_2])): Send request successfully
+
+2019-03-25 15:33:22 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\7.har
+
+2019-03-25 15:33:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:22 - [TEST_STEP][PASSED] - println("..Using Sum3 :" + Sum_3): null
+
+2019-03-25 15:33:22 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum3":Sum_3])): Send request successfully
+
+2019-03-25 15:33:22 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\8.har
+
+2019-03-25 15:33:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-25 15:33:22 - [TEST_STEP][PASSED] - println("..Using Sum4 :" + Sum_4): null
+
+2019-03-25 15:33:22 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST", ["Sum4":Sum_4])): Send request successfully
+
+2019-03-25 15:33:23 - [MESSAGE][INFO] - HAR: C:\katalonwork\Katalon\MarkitCoreWebService\Reports\DataDrivenDemo\20190325_153310\requests\main\9.har
+
+2019-03-25 15:33:23 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-25 15:33:13 - [TEST_SUITE][PASSED] - DataDrivenDemo: Test Cases/DataDrivenDemoTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

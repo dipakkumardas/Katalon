@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyProductDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1da43a2c-d79d-4a89-a04c-191cad5c070b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b60f112-30b0-43f6-8473-b590f2718da8</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

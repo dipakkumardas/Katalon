@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenDemoTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d79eb85b-674e-4d61-aff4-b1a3f5717e27</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ProductDetails').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8dfc0044-fa16-4669-86ac-a5d329203520</id>
+      <masked>false</masked>
+      <name>ProductCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ProductDetails').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>550fd109-8345-4b3f-ac89-17289adec57f</id>
+      <masked>false</masked>
+      <name>Sum_1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ProductDetails').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>a8cbd66a-f638-438e-9fcd-592c3b28e52e</id>
+      <masked>false</masked>
+      <name>Sum_2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ProductDetails').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>b7bb2aad-c479-4b20-8a70-b536de8e4105</id>
+      <masked>false</masked>
+      <name>Sum_3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ProductDetails').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>acb5c252-c51e-4e16-a1d8-984c242607f8</id>
+      <masked>false</masked>
+      <name>Sum_4</name>
+   </variable>
+</TestCaseEntity>

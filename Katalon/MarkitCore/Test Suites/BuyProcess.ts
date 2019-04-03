@@ -46,7 +46,7 @@
          <combinationType>ONE</combinationType>
          <id>4cb5a9b1-b966-45be-8e55-fe1ed9e805e6</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Quote</testDataId>
@@ -117,6 +117,12 @@
          <value></value>
          <variableId>847855a9-b470-4764-9c6d-cfd6c16d4e1f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>4cb5a9b1-b966-45be-8e55-fe1ed9e805e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNoRow</value>
+         <variableId>e7b0f2c8-8396-4b72-943e-1c5d2017c1f4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d0979ea7-d570-49b2-ab6f-aae17306d5f8</guid>
@@ -146,7 +152,7 @@
          <id>dbcabaa2-40b3-418a-a0e4-828387e32b80</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <value>2-2</value>
          </iterationEntity>
          <testDataId>Data Files/Quote</testDataId>
       </testDataLink>

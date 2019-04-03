@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test case is to Verify GWP Premium</description>
+   <name>VerifyBasePremium</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5a7f7d9-b16a-47d8-9cff-aa4335efdd15</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62c068d9-35ce-482a-85a6-17bd921f45ae</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

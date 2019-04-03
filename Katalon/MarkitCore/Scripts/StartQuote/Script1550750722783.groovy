@@ -14,9 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-not_run: KeywordLogger log = new KeywordLogger()
+KeywordLogger log = new KeywordLogger()
 
 WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
+
+int i = 1
 
 WebUI.click(findTestObject('StartQuote'))
 
@@ -122,14 +124,24 @@ WebUI.click(findTestObject('PaymentDetails/BindAndSendPolicySchedule'))
 
 var_policyno = WebUI.getText(findTestObject('PremiumPage/PolicyNo'))
 
-System.out.println(var_policyno)
+Confirmmsg = WebUI.getText(findTestObject('PaymentDetails/ConfirmationMessage'))
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('ClientSearch'), [('ClientName') : ''], FailureHandling.STOP_ON_FAILURE)
 
-not_run: CustomKeywords.'com.helper.excel.ExcelHelper.writeTOExcelFile'('E:\\MarkitCore\\ExcelWriter\\test.xlsx', 'TestData', 
-    var_policyNo, 1, 1)
+not_run: log.logInfo(PolicyNo)
+
+not_run: log.logInfo(Confirmmsg)
+
+not_run: WebUI.delay(2)
+
+not_run: CustomKeywords.'com.helper.excel2.excelwrite.WriteExcel'(GlobalVariable.PolicyNo)
+
+CustomKeywords.'com.helper.excel.ExcelHelper.writeTOExcelFile'('E:\\MarkitCore\\ExcelWriter\\test.xlsx', 'TestData', var_policyno, 
+    i, 1)
 
 not_run: CustomKeywords.'com.helper.excel2.excelwrite.WriteExcel'()
+
+i++
 
 WebUI.delay(5)
 

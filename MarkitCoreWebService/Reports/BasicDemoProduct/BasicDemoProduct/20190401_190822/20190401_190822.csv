@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BasicDemoProduct,,,2019-04-01 19:08:28,2019-04-01 19:08:49,20.445s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 19:08:29,2019-04-01 19:08:37,8.370s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 19:08:29,2019-04-01 19:08:29,0.003s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-04-01 19:08:29,2019-04-01 19:08:29,0.005s,PASSED
+logger.logInfo(Type),,,2019-04-01 19:08:29,2019-04-01 19:08:29,0.001s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 19:08:29,2019-04-01 19:08:37,7.941s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 19:08:37,2019-04-01 19:08:45,7.759s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 19:08:37,2019-04-01 19:08:37,0.000s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-04-01 19:08:37,2019-04-01 19:08:37,0.001s,PASSED
+logger.logInfo(Type),,,2019-04-01 19:08:37,2019-04-01 19:08:37,0.001s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 19:08:37,2019-04-01 19:08:45,7.659s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 19:08:45,2019-04-01 19:08:47,2.310s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 19:08:45,2019-04-01 19:08:45,0.000s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-04-01 19:08:45,2019-04-01 19:08:45,0.001s,PASSED
+logger.logInfo(Type),,,2019-04-01 19:08:45,2019-04-01 19:08:45,0.001s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 19:08:45,2019-04-01 19:08:47,2.297s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 19:08:47,2019-04-01 19:08:49,1.615s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 19:08:47,2019-04-01 19:08:47,0.001s,PASSED
+logger = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-04-01 19:08:47,2019-04-01 19:08:47,0.001s,PASSED
+logger.logInfo(Type),,,2019-04-01 19:08:47,2019-04-01 19:08:47,0.002s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 19:08:47,2019-04-01 19:08:49,1.600s,PASSED

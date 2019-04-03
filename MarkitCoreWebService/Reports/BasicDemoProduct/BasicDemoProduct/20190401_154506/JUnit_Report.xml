@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BasicDemoProduct" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="BasicDemoProduct" tests="1" failures="0" errors="0" time="5" timestamp="2019-04-01 15:45:07" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/BasicDemoProduct/BasicDemoProduct">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_154506"/>
+         <property name="logFiles" value="E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_154506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/BasicDemoProduct/BasicDemoProductData" classname="Test Cases/BasicDemoProduct/BasicDemoProductData" status="PASSED">
+         <system-out><![CDATA[2019-04-01 15:45:08 - [TEST_CASE][PASSED] - Test Cases/BasicDemoProduct/BasicDemoProductData: Test Cases/BasicDemoProduct/BasicDemoProductData
+
+2019-04-01 15:45:08 - [TEST_STEP][PASSED] - println("Using Type :" + Type): null
+
+2019-04-01 15:45:08 - [TEST_STEP][PASSED] - sendRequest(findTestObject("BasicDemoProduct", ["Type":Type, "BuildingSumInsure":BuildingSumInsure, "NoOfRoom":NoOfRoom, "ContentSumInsure":ContentSumInsure])): Send request successfully
+
+2019-04-01 15:45:13 - [MESSAGE][INFO] - HAR: E:\MarkitCore\Katalon\MarkitCoreWebService\Reports\BasicDemoProduct\BasicDemoProduct\20190401_154506\requests\main\0.har
+
+2019-04-01 15:45:13 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 15:45:07 - [TEST_SUITE][PASSED] - BasicDemoProduct: Test Cases/BasicDemoProduct/BasicDemoProductData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

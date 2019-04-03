@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-01T17:16:43</date>
+  <millis>1554119203947</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/BasicDemoProduct/BasicDemoProduct</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">BasicDemoProduct</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/BasicDemoProduct/BasicDemoProduct</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:43</date>
+  <millis>1554119203961</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dipak - DIPAKDAS-PC.indusnettechnologies.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">dipak - DIPAKDAS-PC.indusnettechnologies.com</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:43</date>
+  <millis>1554119203962</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 32bit</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:43</date>
+  <millis>1554119203963</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.0.12.237</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.12.237</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:43</date>
+  <millis>1554119203964</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204342</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="source">E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Test Cases\\BasicDemoProduct\\BasicDemoProductData.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204376</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Type = Flat</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204376</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BuildingSumInsure = 1000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204376</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NoOfRoom = 10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204377</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ContentSumInsure = 1000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204747</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204751</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:44</date>
+  <millis>1554119204751</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213679</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_171632\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">18ac5add-f689-4dc8-b3b4-50803f7c9ab4</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213844</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213844</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213844</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213845</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213850</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="source">E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Test Cases\\BasicDemoProduct\\BasicDemoProductData.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213929</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Type = StandAlone</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213929</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BuildingSumInsure = 2000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213929</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NoOfRoom = 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213929</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ContentSumInsure = 1500</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213930</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213933</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:53</date>
+  <millis>1554119213934</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216852</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_171632\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2e2a39e6-e1e5-4baa-a046-7ad1085aa546</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216856</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216856</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216857</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216857</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216862</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="source">E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Test Cases\\BasicDemoProduct\\BasicDemoProductData.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216870</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Type = Duplex</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216870</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BuildingSumInsure = 3000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216870</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NoOfRoom = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216871</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ContentSumInsure = 2500</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216872</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216872</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:16:56</date>
+  <millis>1554119216873</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220123</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_171632\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d01e9e54-1b17-42ee-a0b1-c1b3ce349b5a</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220127</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220127</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220127</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220128</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220133</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BasicDemoProduct/BasicDemoProductData</property>
+  <property name="source">E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Test Cases\\BasicDemoProduct\\BasicDemoProductData.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220139</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Type = FirmHouse</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220139</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BuildingSumInsure = 2000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220139</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NoOfRoom = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220139</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ContentSumInsure = 3000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220141</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220141</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using Type :\&amp;quot; + Type)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:00</date>
+  <millis>1554119220141</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224206</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\MarkitCore\\Katalon\\MarkitCoreWebService\\Reports\\BasicDemoProduct\\BasicDemoProduct\\20190401_171632\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b52be298-6ed7-4ec3-bbec-4e79a7460fe7</property>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224216</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224216</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;BasicDemoProduct\&amp;quot;, [\&amp;quot;Type\&amp;quot;:Type, \&amp;quot;BuildingSumInsure\&amp;quot;:BuildingSumInsure, \&amp;quot;NoOfRoom\&amp;quot;:NoOfRoom, \&amp;quot;ContentSumInsure\&amp;quot;:ContentSumInsure]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224217</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224217</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BasicDemoProduct/BasicDemoProductData</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-01T17:17:04</date>
+  <millis>1554119224363</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/BasicDemoProduct/BasicDemoProduct</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

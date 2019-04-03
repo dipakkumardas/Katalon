@@ -1,0 +1,116 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BuyProcess,Chrome 72.0.3626.121,,2019-03-15 11:15:15,2019-03-15 11:17:40,2m - 24.432s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 72.0.3626.121,MarkitCoreLogin,2019-03-15 11:15:15,2019-03-15 11:15:43,27.608s,PASSED
+"openBrowser(""https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 72.0.3626.121,,2019-03-15 11:15:16,2019-03-15 11:15:28,12.027s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-15 11:15:28,2019-03-15 11:15:28,0.160s,PASSED
+waitForPageLoad(4),Chrome 72.0.3626.121,,2019-03-15 11:15:28,2019-03-15 11:15:28,0.075s,PASSED
+"setText(findTestObject(""Username""), ""dDasTester"")",Chrome 72.0.3626.121,,2019-03-15 11:15:28,2019-03-15 11:15:28,0.177s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-15 11:15:28,2019-03-15 11:15:30,2.036s,PASSED
+"setText(findTestObject(""Password""), ""Czybm6R*"")",Chrome 72.0.3626.121,,2019-03-15 11:15:30,2019-03-15 11:15:30,0.119s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:15:30,2019-03-15 11:15:33,3.006s,PASSED
+"click(findTestObject(""LoginButton""))",Chrome 72.0.3626.121,,2019-03-15 11:15:33,2019-03-15 11:15:40,6.714s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-15 11:15:40,2019-03-15 11:15:43,3.003s,PASSED
+,,,,,,
+Test Cases/ClientSearch,Chrome 72.0.3626.121,,2019-03-15 11:15:43,2019-03-15 11:16:02,19.339s,PASSED
+"waitForElementClickable(findTestObject(""ClientSearch""), 10)",Chrome 72.0.3626.121,,2019-03-15 11:15:43,2019-03-15 11:15:43,0.049s,PASSED
+"click(findTestObject(""ClientSearch""))",Chrome 72.0.3626.121,,2019-03-15 11:15:43,2019-03-15 11:15:46,2.746s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:15:46,2019-03-15 11:15:51,5.003s,PASSED
+"sendKeys(findTestObject(""SearchText""), ""Dipak"")",Chrome 72.0.3626.121,,2019-03-15 11:15:51,2019-03-15 11:15:51,0.215s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-15 11:15:51,2019-03-15 11:15:53,2.004s,PASSED
+"sendKeys(findTestObject(""SearchText""), Keys.chord(ENTER))",Chrome 72.0.3626.121,,2019-03-15 11:15:53,2019-03-15 11:15:53,0.058s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-15 11:15:53,2019-03-15 11:15:56,3.003s,PASSED
+"waitForElementClickable(findTestObject(""ClientListingAction""), 5)",Chrome 72.0.3626.121,,2019-03-15 11:15:56,2019-03-15 11:15:56,0.046s,PASSED
+"click(findTestObject(""ClientListingAction""))",Chrome 72.0.3626.121,,2019-03-15 11:15:56,2019-03-15 11:15:57,1.046s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:15:57,2019-03-15 11:16:02,5.003s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:16:02,2019-03-15 11:17:35,1m - 32.892s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:16:03,2019-03-15 11:16:03,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:16:03,2019-03-15 11:16:03,0.015s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:16:03,2019-03-15 11:16:05,1.987s,PASSED
+waitForJQueryLoad(5),Chrome 72.0.3626.121,,2019-03-15 11:16:05,2019-03-15 11:16:06,1.731s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/currency""), var_currency, false)",Chrome 72.0.3626.121,,2019-03-15 11:16:06,2019-03-15 11:16:07,0.177s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:16:07,2019-03-15 11:16:12,5.003s,PASSED
+"click(findTestObject(""GeneralInformation/SelectBroker""))",Chrome 72.0.3626.121,,2019-03-15 11:16:12,2019-03-15 11:16:12,0.182s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/SelectBroker""), BrokerName, false)",Chrome 72.0.3626.121,,2019-03-15 11:16:12,2019-03-15 11:16:12,0.141s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:16:12,2019-03-15 11:16:17,5.004s,PASSED
+"click(findTestObject(""GeneralInformation/SelectProduct""))",Chrome 72.0.3626.121,,2019-03-15 11:16:17,2019-03-15 11:16:17,0.135s,PASSED
+waitForJQueryLoad(5),Chrome 72.0.3626.121,,2019-03-15 11:16:17,2019-03-15 11:16:17,0.015s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/SelectProduct""), ProductName, false)",Chrome 72.0.3626.121,,2019-03-15 11:16:17,2019-03-15 11:16:17,0.104s,PASSED
+waitForJQueryLoad(5),Chrome 72.0.3626.121,,2019-03-15 11:16:17,2019-03-15 11:16:18,0.529s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-15 11:16:18,2019-03-15 11:16:18,0.001s,NOT_RUN
+"click(findTestObject(""GeneralInformation/PolicyTerm""))",Chrome 72.0.3626.121,,2019-03-15 11:16:18,2019-03-15 11:16:18,0.141s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:16:18,2019-03-15 11:16:23,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""GeneralInformation/PolicyTerm""), Term, false)",Chrome 72.0.3626.121,,2019-03-15 11:16:23,2019-03-15 11:16:23,0.134s,PASSED
+waitForJQueryLoad(10),Chrome 72.0.3626.121,,2019-03-15 11:16:23,2019-03-15 11:16:23,0.536s,PASSED
+"click(findTestObject(""GeneralInformation/PolicyStartDate""))",Chrome 72.0.3626.121,,2019-03-15 11:16:23,2019-03-15 11:16:24,0.229s,PASSED
+"click(findTestObject(""GeneralInformation/Policy_Start_Year""))",Chrome 72.0.3626.121,,2019-03-15 11:16:24,2019-03-15 11:16:24,0.146s,PASSED
+"click(findTestObject(""GeneralInformation/Policy_Start_Month""))",Chrome 72.0.3626.121,,2019-03-15 11:16:24,2019-03-15 11:16:24,0.123s,PASSED
+"click(findTestObject(""GeneralInformation/Policy_Start_Month""))",Chrome 72.0.3626.121,,2019-03-15 11:16:24,2019-03-15 11:16:24,0.068s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-15 11:16:24,2019-03-15 11:16:28,4.002s,PASSED
+"click(findTestObject(""GeneralInformation/NextButton""))",Chrome 72.0.3626.121,,2019-03-15 11:16:28,2019-03-15 11:16:28,0.180s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-15 11:16:28,2019-03-15 11:16:31,3.002s,PASSED
+"if (var_cancelAlertCondition.equals(""cancel""))",Chrome 72.0.3626.121,,2019-03-15 11:16:31,2019-03-15 11:16:57,25.799s,PASSED
+waitForJQueryLoad(10),Chrome 72.0.3626.121,,2019-03-15 11:16:57,2019-03-15 11:16:58,0.609s,PASSED
+"click(findTestObject(""PremiumPage/Bind""))",Chrome 72.0.3626.121,,2019-03-15 11:16:58,2019-03-15 11:16:59,1.305s,PASSED
+delay(10),Chrome 72.0.3626.121,,2019-03-15 11:16:59,2019-03-15 11:17:09,10.004s,PASSED
+"click(findTestObject(""PaymentDetails/PaymentMethods""))",Chrome 72.0.3626.121,,2019-03-15 11:17:09,2019-03-15 11:17:09,0.108s,PASSED
+waitForJQueryLoad(5),Chrome 72.0.3626.121,,2019-03-15 11:17:09,2019-03-15 11:17:09,0.022s,PASSED
+"selectOptionByLabel(findTestObject(""PaymentDetails/SelectInstallment""), ""1"", false)",Chrome 72.0.3626.121,,2019-03-15 11:17:09,2019-03-15 11:17:09,0.076s,PASSED
+"scrollToElement(findTestObject(""PaymentDetails/ConfirmPaymentType""), 5)",Chrome 72.0.3626.121,,2019-03-15 11:17:09,2019-03-15 11:17:09,0.032s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:17:09,2019-03-15 11:17:14,5.003s,PASSED
+"click(findTestObject(""PaymentDetails/ConfirmPaymentType""))",Chrome 72.0.3626.121,,2019-03-15 11:17:14,2019-03-15 11:17:14,0.079s,PASSED
+"scrollToElement(findTestObject(""PaymentDetails/BindAndSendPolicySchedule""), 5)",Chrome 72.0.3626.121,,2019-03-15 11:17:14,2019-03-15 11:17:17,3.099s,PASSED
+delay(4),Chrome 72.0.3626.121,,2019-03-15 11:17:17,2019-03-15 11:17:21,4.001s,PASSED
+"click(findTestObject(""PaymentDetails/BindAndSendPolicySchedule""))",Chrome 72.0.3626.121,,2019-03-15 11:17:21,2019-03-15 11:17:22,0.124s,PASSED
+"var_policyno = getText(findTestObject(""PremiumPage/PolicyNo""))",Chrome 72.0.3626.121,,2019-03-15 11:17:22,2019-03-15 11:17:28,6.680s,PASSED
+out.println(var_policyno),Chrome 72.0.3626.121,,2019-03-15 11:17:28,2019-03-15 11:17:28,0.007s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-15 11:17:28,2019-03-15 11:17:30,2.003s,PASSED
+"com.helper.excel.ExcelHelper.writeTOExcelFile(""E:\MarkitCore\ExcelWriter\test.xlsx"", ""TestData"", var_policyNo, 1, 1)",Chrome 72.0.3626.121,,2019-03-15 11:17:30,2019-03-15 11:17:30,0.001s,NOT_RUN
+com.helper.excel2.excelwrite.WriteExcel(),Chrome 72.0.3626.121,,2019-03-15 11:17:30,2019-03-15 11:17:30,0.001s,NOT_RUN
+delay(5),Chrome 72.0.3626.121,,2019-03-15 11:17:30,2019-03-15 11:17:35,5.005s,PASSED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:35,2019-03-15 11:17:36,0.480s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:35,2019-03-15 11:17:35,0.000s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:35,2019-03-15 11:17:35,0.010s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:35,2019-03-15 11:17:36,0.432s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.385s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.008s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.351s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.388s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.008s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:36,0.344s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:36,2019-03-15 11:17:37,0.393s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.000s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.012s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.342s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.398s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.009s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.343s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:38,0.379s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.000s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:37,0.009s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:37,2019-03-15 11:17:38,0.325s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.395s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.001s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.007s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.342s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.390s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.000s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.009s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.338s,FAILED
+,,,,,,
+Test Cases/StartQuote,Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:39,0.391s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:38,0.000s,NOT_RUN
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-15 11:17:38,2019-03-15 11:17:39,0.009s,PASSED
+"click(findTestObject(""StartQuote""))",Chrome 72.0.3626.121,,2019-03-15 11:17:39,2019-03-15 11:17:39,0.337s,FAILED

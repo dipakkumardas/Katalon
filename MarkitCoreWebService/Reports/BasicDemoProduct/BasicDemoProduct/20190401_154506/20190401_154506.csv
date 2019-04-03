@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BasicDemoProduct,,,2019-04-01 15:45:07,2019-04-01 15:45:13,5.358s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 15:45:08,2019-04-01 15:45:13,5.140s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 15:45:08,2019-04-01 15:45:08,0.004s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 15:45:08,2019-04-01 15:45:13,4.803s,PASSED

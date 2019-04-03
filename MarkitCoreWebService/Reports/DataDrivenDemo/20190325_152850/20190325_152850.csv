@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenDemo,,,2019-03-25 15:28:51,2019-03-25 15:28:57,5.479s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2019-03-25 15:28:52,2019-03-25 15:28:55,3.485s,PASSED
+"println(""..Using Product Code :"" + ProductCode)",,,2019-03-25 15:28:52,2019-03-25 15:28:52,0.004s,PASSED
+"sendRequest(findTestObject(""POST"", [""Prod_Name"":ProductCode]))",,,2019-03-25 15:28:52,2019-03-25 15:28:54,1.712s,PASSED
+"println(""..Using Sum1 :"" + Sum_1)",,,2019-03-25 15:28:54,2019-03-25 15:28:54,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum1"":Sum_1]))",,,2019-03-25 15:28:54,2019-03-25 15:28:54,0.314s,PASSED
+"println(""..Using Sum2 :"" + Sum_2)",,,2019-03-25 15:28:54,2019-03-25 15:28:54,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum2"":Sum_2]))",,,2019-03-25 15:28:54,2019-03-25 15:28:54,0.303s,PASSED
+"println(""..Using Sum3 :"" + Sum_3)",,,2019-03-25 15:28:54,2019-03-25 15:28:54,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum3"":Sum_3]))",,,2019-03-25 15:28:54,2019-03-25 15:28:55,0.349s,PASSED
+"println(""..Using Sum4 :"" + Sum_4)",,,2019-03-25 15:28:55,2019-03-25 15:28:55,0.002s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum4"":Sum_4]))",,,2019-03-25 15:28:55,2019-03-25 15:28:55,0.439s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2019-03-25 15:28:55,2019-03-25 15:28:57,1.755s,PASSED
+"println(""..Using Product Code :"" + ProductCode)",,,2019-03-25 15:28:55,2019-03-25 15:28:55,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Prod_Name"":ProductCode]))",,,2019-03-25 15:28:55,2019-03-25 15:28:56,0.688s,PASSED
+"println(""..Using Sum1 :"" + Sum_1)",,,2019-03-25 15:28:56,2019-03-25 15:28:56,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum1"":Sum_1]))",,,2019-03-25 15:28:56,2019-03-25 15:28:56,0.266s,PASSED
+"println(""..Using Sum2 :"" + Sum_2)",,,2019-03-25 15:28:56,2019-03-25 15:28:56,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum2"":Sum_2]))",,,2019-03-25 15:28:56,2019-03-25 15:28:56,0.234s,PASSED
+"println(""..Using Sum3 :"" + Sum_3)",,,2019-03-25 15:28:56,2019-03-25 15:28:56,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum3"":Sum_3]))",,,2019-03-25 15:28:56,2019-03-25 15:28:57,0.240s,PASSED
+"println(""..Using Sum4 :"" + Sum_4)",,,2019-03-25 15:28:57,2019-03-25 15:28:57,0.001s,PASSED
+"sendRequest(findTestObject(""POST"", [""Sum4"":Sum_4]))",,,2019-03-25 15:28:57,2019-03-25 15:28:57,0.307s,PASSED

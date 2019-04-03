@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BasicDemoProduct,,,2019-04-01 17:16:43,2019-04-01 17:17:04,20.416s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 17:16:44,2019-04-01 17:16:53,9.503s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 17:16:44,2019-04-01 17:16:44,0.004s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 17:16:44,2019-04-01 17:16:53,9.093s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 17:16:53,2019-04-01 17:16:56,3.007s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 17:16:53,2019-04-01 17:16:53,0.003s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 17:16:53,2019-04-01 17:16:56,2.922s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 17:16:56,2019-04-01 17:17:00,3.266s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 17:16:56,2019-04-01 17:16:56,0.000s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 17:16:56,2019-04-01 17:17:00,3.254s,PASSED
+,,,,,,
+Test Cases/BasicDemoProduct/BasicDemoProductData,,,2019-04-01 17:17:00,2019-04-01 17:17:04,4.084s,PASSED
+"println(""Using Type :"" + Type)",,,2019-04-01 17:17:00,2019-04-01 17:17:00,0.000s,PASSED
+"sendRequest(findTestObject(""BasicDemoProduct"", [""Type"":Type, ""BuildingSumInsure"":BuildingSumInsure, ""NoOfRoom"":NoOfRoom, ""ContentSumInsure"":ContentSumInsure]))",,,2019-04-01 17:17:00,2019-04-01 17:17:04,4.075s,PASSED

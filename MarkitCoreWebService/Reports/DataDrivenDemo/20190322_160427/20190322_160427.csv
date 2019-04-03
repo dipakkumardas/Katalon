@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenDemo,,,2019-03-22 16:04:29,2019-03-22 16:04:31,2.456s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2019-03-22 16:04:29,2019-03-22 16:04:31,2.237s,PASSED
+"println(""..Using Product Code :"" + ProductCode)",,,2019-03-22 16:04:29,2019-03-22 16:04:29,0.004s,PASSED
+"sendRequest(findTestObject(""POST"", [""Prod_Name"":ProductCode]))",,,2019-03-22 16:04:29,2019-03-22 16:04:31,1.924s,PASSED

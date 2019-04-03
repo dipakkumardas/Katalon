@@ -82,4 +82,11 @@
       <masked>false</masked>
       <name>var_policyno</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7b0f2c8-8396-4b72-943e-1c5d2017c1f4</id>
+      <masked>false</masked>
+      <name>rowno</name>
+   </variable>
 </TestCaseEntity>

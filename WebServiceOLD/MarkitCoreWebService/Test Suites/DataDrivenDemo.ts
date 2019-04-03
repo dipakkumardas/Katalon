@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenDemo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>4d66bd5a-8860-4a06-acbf-640db710ae7c</testSuiteGuid>
+   <testCaseLink>
+      <guid>51fb9dcc-bc07-44b7-b2ea-b991f73a740d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDrivenDemoTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/ProductDetails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProductCode</value>
+         <variableId>8dfc0044-fa16-4669-86ac-a5d329203520</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SUM1</value>
+         <variableId>550fd109-8345-4b3f-ac89-17289adec57f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SUM2</value>
+         <variableId>a8cbd66a-f638-438e-9fcd-592c3b28e52e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SUM3</value>
+         <variableId>b7bb2aad-c479-4b20-8a70-b536de8e4105</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ecf2504e-d2f0-4fd2-9c01-5a590c4cdf8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SUM4</value>
+         <variableId>acb5c252-c51e-4e16-a1d8-984c242607f8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

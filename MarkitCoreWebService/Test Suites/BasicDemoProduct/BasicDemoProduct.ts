@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>BasicDemoProduct</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>93a400ce-ad34-41d0-a55a-22409dde41ca</testSuiteGuid>
+   <testCaseLink>
+      <guid>0dba8f39-656d-4d4a-8108-d86830e03392</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BasicDemoProduct/BasicDemoProductData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>053f686e-5a72-4a3f-ae2d-4dd478a0fd5f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BasicDemoProductData/BasicDemoProductData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>053f686e-5a72-4a3f-ae2d-4dd478a0fd5f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
+         <variableId>40fd3b56-7cd3-4e75-bf4f-afd8e5833402</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>053f686e-5a72-4a3f-ae2d-4dd478a0fd5f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BuildingSumInsure</value>
+         <variableId>eb86af37-5c94-4d09-bd98-8cbdc6ae275a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>053f686e-5a72-4a3f-ae2d-4dd478a0fd5f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NoOfRoom</value>
+         <variableId>2e0ad11a-80f7-4256-916b-034fb781ddc8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>053f686e-5a72-4a3f-ae2d-4dd478a0fd5f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ContentSumInsure</value>
+         <variableId>00fc40eb-c42a-4f46-b584-a7965838faa2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

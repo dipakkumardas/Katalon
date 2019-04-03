@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//strong[contains(text(),'Policy has been successfully created.')]</value>
+         <value>//div[@class='alert-content']/strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//strong[contains(text(),'Policy has been successfully created.')]</value>
+      <value>//div[@class='alert-content']/strong</value>
    </webElementProperties>
 </WebElementEntity>

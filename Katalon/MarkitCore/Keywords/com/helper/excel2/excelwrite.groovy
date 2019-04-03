@@ -5,6 +5,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import com.google.common.cache.Striped64.Cell
+import com.google.common.collect.ArrayTable.Row
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -30,19 +32,17 @@ import internal.GlobalVariable
 public class excelwrite {
 
 	@Keyword
-	public void WriteExcel() {
+	public void WriteExcel(String name)throws IOException {
 		FileInputStream file = new FileInputStream (new File("E:\\MarkitCore\\ExcelWriter\\test.xlsx"))
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheetAt(0);
-
-		'Read data from excel'
-		String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
-		'Write data to excel'
-		sheet.getRow(1).createCell(1).setCellValue("Mahesh2");
-
-		file.close();
+		XSSFSheet sheet = workbook.getSheetAt("Sheet1");
+		int rowCount = sheet.getLastRowNum()-sheet.getFirstRowNum();
+		Row row = sheet.createRow(rowCount+0);
+		Cell cell = row.createCell(0);
+		cell.setCellType(cell.CELL_TYPE_STRING)
+		cell.setCellValue(name)
 		FileOutputStream outFile =new FileOutputStream(new File("E:\\MarkitCore\\ExcelWriter\\test.xlsx"));
-		workbook.write(outFile);
-		outFile.close();
+		workbook.write(fos);
+		fos.close();
 	}
 }
